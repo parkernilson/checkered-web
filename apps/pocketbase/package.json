@@ -6,6 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev:local": "docker-compose -f docker-compose.local.yml up"
+    "dev:local": "docker-compose -f docker-compose.local.yml up",
+    "dev:local:build": "docker-compose -f docker-compose.local.yml build"
   }
 }
