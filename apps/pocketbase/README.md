@@ -12,4 +12,4 @@ Anytime the docker configuration is changed, or the pocketbase version is update
 $ bun dev:local:build
 ```
 
-To run commands on the pocketbase executable (i.e. `pocketbase -h`), the `bun pb -- <args>` command may be used to run them on the pocketbase executable inside the docker service.
+To run commands on the pocketbase executable (i.e. `pocketbase -h`), the `bun pb <args>` command may be used to run them on the pocketbase executable inside the docker service.
