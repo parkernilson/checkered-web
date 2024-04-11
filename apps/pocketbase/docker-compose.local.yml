@@ -4,7 +4,7 @@ services:
     build: 
       context: .
       args: 
-        - VERSION=0.19.4
+        - VERSION=0.22.8
     image: solid-pocketbase-local
     container_name: solid-pocketbase-local
     restart: unless-stopped
